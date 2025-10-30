@@ -1,0 +1,13 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background: url('../images/banner.jpg') center/cover no-repeat;
+  height: 90vh;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
