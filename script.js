@@ -1,8 +1,8 @@
 const products = [
-  { name: "Shampoo", price: 1000, img: "images/product1.jpg" },
-  { name: "Wireless Headphones", price: 2499, img: "images/product2.jpg" },
-  { name: "Sports Shoes", price: 3999, img: "images/product3.jpg" },
-  { name: "Wrist Watch", price: 2999, img: "images/product4.jpg" }
+  { name: "Shampoo", price: 1000, img: "product1.jpg" },
+  { name: "Wireless Headphones", price: 2499, img: "product2.jpg" },
+  { name: "Sports Shoes", price: 3999, img: "product3.jpg" },
+  { name: "Wrist Watch", price: 2999, img: "product4.jpg" }
 ];
 
 const productList = document.getElementById('productList');
@@ -22,3 +22,4 @@ products.forEach(product => {
   `;
   productList.appendChild(col);
 });
+
